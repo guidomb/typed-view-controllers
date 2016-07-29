@@ -1,0 +1,5 @@
+ - Tratar de arreglar los warnings por tener un view model immutable
+ - Analizar si es un problema que estemos forzando en tiempo de compilación que la vista y el view model
+sea immutables. (en el sentido que no se pueden asignar propiedades)
+ - Analizar que problemas trae que el controller final (LoginController) sea generico. No podemos declarar variables
+con este tipo a menos que especifiquemos todos los tipos genericos.
